@@ -1,7 +1,6 @@
 class Laptop:
-    my_dict = {}
-
     def __init__(self, model):
+        self.my_dict = {}
         self.my_dict['Модель ноутбука'] = model
     
     def set_property(self):
