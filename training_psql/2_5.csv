@@ -1,0 +1,6 @@
+"id","from_country","to_country","flight_type","company","neighbors"
+4,"Kyrgyzstan","Japan","Пассажирский","Dly",2
+8,"Kyrgyzstan","Turkey","Пассажирский","Unknown",2
+9,"Japan","China","Пассажирский","Unknown",2
+11,"Kyrgyzstan","China","Пассажирский","Unknown",2
+12,"Turkey","Russia","Пассажирский","Unknown",2
