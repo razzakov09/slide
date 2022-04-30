@@ -74,3 +74,38 @@
 -- FULL OUTER JOIN narodnii
 -- ON globus.date_delivered = narodnii.date_delivered;
 
+-- #11
+-- SELECT globus.product_name
+-- FROM globus
+-- LEFT JOIN narodnii
+-- ON globus.* = narodnii.*;
+
+-- #12
+-- SELECT narodnii.product_name
+-- FROM narodnii
+-- LEFT JOIN globus
+-- ON narodnii.* = globus.*;
+
+-- #13
+-- SELECT globus.product_name
+-- FROM globus
+-- LEFT JOIN narodnii
+-- ON globus.* = narodnii.*;
+
+-- #14
+-- SELECT COUNT(globus.product_name)
+-- FROM globus
+-- LEFT JOIN narodnii
+-- ON globus.product_name = narodnii.product_name;
+
+-- #15
+-- SELECT product_name FROM globus
+-- WHERE 
+-- product_name LIKE '%a' OR
+-- product_name LIKE '%b' OR
+-- product_name LIKE '%c' OR
+-- product_name LIKE '%d' OR
+-- product_name LIKE '%e' OR
+-- product_name LIKE '%f' OR
+-- product_name LIKE '%g';
+
